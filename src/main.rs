@@ -40,7 +40,6 @@ use crate::regex_helper::{pattern_has_uppercase_char, pattern_matches_strings_wi
     not(target_os = "android"),
     not(target_os = "macos"),
     not(target_os = "freebsd"),
-    not(target_env = "musl"),
     not(target_arch = "riscv64"),
     feature = "use-jemalloc"
 ))]
